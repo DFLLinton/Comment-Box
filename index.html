@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comment Box</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 id="title">A photo from my holiday...</h1>
+  <img id="content" src="https://cdn.britannica.com/67/19367-050-885866B4/Valley-Taurus-Mountains-Turkey.jpg" alt="mountain range"/>
+  <div id="comments">
+    <p>Comments:</p>
+       <ul id="unordered">
+       
+   </ul>
+  </div>
+    <textarea type="text" id="comment-box" placeholder="Enter comment" onkeyup="countChars(this);"></textarea>
+  <p id="charNum">0 characters</p>
+  <input type="text" id="name-box" placeholder="Enter name">
+  <input type="email" id="email-box" placeholder="Enter email">
+    <button id="post">Post</button>
+
+
+
+   
+    <script src="code.js"></script>
+</body>
+</html>

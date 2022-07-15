@@ -1,0 +1,38 @@
+body {
+    background: lightblue;
+font-family: sans-serif;
+}
+#comment-box{
+  width: 300px;
+  height: 50px;
+  display: block;
+  margin-top: 10px;
+  font-family: sans-serif;
+}
+#comment-box, #post, #name-box, #email-box {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: blue;
+  color: white;
+}
+#comments{
+  border-style: double;
+  padding: 20px;
+  color: blue;
+}
+#content{
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  margin-bottom: 20px;
+}
+#charNum{
+  font-size: 12;
+}
+#title{
+  color: blue;
+  text-align: center;
+}
